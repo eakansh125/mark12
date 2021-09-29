@@ -5,8 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle quiz</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+    <nav id="navbar">
+        <a class="link" href="index.html">Is triangle</a>
+        <a class="link" href="quizTriangle.html">Triangle quiz</a>
+        <a class="link" href="calcHypotenuse.html">Find hypotenuse</a>
+        <a class="link" href="area.html">Triangle area</a>
+    </nav>
+    <h1>Triangle quiz</h1>
     <form class="quiz-form">
         <div class="question-container">
             <p>Question1: What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
@@ -23,7 +31,7 @@
         
         
     </form>
-    <button id="submit-ans-btn">Submit answer button</button>
+    <button id="submit-ans-btn">Check score</button>
     <div id="output"></div>
 
     <script src="src/quizTriangle.js"></script>
