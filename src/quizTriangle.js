@@ -4,7 +4,7 @@ const ansBtn = document.querySelector("#submit-ans-btn")
 
 const output = document.querySelector("#output")
 
-const answers = ["90", "right"]
+const answers = ["90", "right","one","100","30"]
 
 function calculateScore() {
 

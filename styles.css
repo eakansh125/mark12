@@ -18,6 +18,8 @@ body{
     align-items: center;
     justify-content: space-around;
     background-color: #7C3AED;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     
 }
 
@@ -62,4 +64,5 @@ button{
 #output{
     font-weight: bold;
     font-size: larger;
+    margin-bottom: 5rem;
 }
